@@ -20,9 +20,6 @@ ClearDis:
 	int 10h
 	mov ah,0
 	int 10h
-	;mov
-	;mov 
-	;int 1013h
 	ret
 BootMsg:	db "A TOUR OF OPERATION SYSTEM!"
 times 510-($-$$) db 0
